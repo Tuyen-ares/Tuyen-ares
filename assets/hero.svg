@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Hoàn Tuyên, Backend-first Full-Stack Developer. A pixel dinosaur jumps over cacti.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset=".55" stop-color="#172554"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
+    <linearGradient id="nameg"><stop stop-color="#F8FAFC"/><stop offset="1" stop-color="#A5F3FC"/></linearGradient>
+    <clipPath id="card"><rect width="900" height="300" rx="18"/></clipPath>
+    <clipPath id="typeclip"><rect x="72" y="146" width="408" height="30"><animate attributeName="width" dur="8s" repeatCount="indefinite" values="0;408;408;0" keyTimes="0;.4;.8;1"/></rect></clipPath>
+  </defs>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.sans{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif}
+    .star{fill:#E0F2FE;animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+    .cloud{fill:#38BDF8;opacity:.16;animation:drift 46s linear infinite}@keyframes drift{from{transform:translateX(960px)}to{transform:translateX(-140px)}}
+    .ground{animation:scroll 3.711s linear infinite;fill:#64748B}@keyframes scroll{to{transform:translateX(-900px)}}
+    .cactus{animation:run 4s linear infinite}@keyframes run{from{transform:translateX(930px)}to{transform:translateX(-40px)}}
+    .jump{animation:jump 4s infinite}@keyframes jump{0%,21%{transform:translateY(0);animation-timing-function:cubic-bezier(.2,.7,.4,1)}29%{transform:translateY(-85px);animation-timing-function:cubic-bezier(.6,0,.8,.3)}37%,100%{transform:translateY(0)}}
+    .legsA{animation:legA .3s steps(1) infinite}@keyframes legA{0%,100%{opacity:1}50%{opacity:0}}
+    .legsB{animation:legB .3s steps(1) infinite}@keyframes legB{0%,100%{opacity:0}50%{opacity:1}}
+    .onGround{animation:grounded 4s steps(1) infinite}@keyframes grounded{0%,21%,37.1%,100%{opacity:1}21.1%,37%{opacity:0}}
+    .inAir{opacity:0;animation:airborne 4s steps(1) infinite}@keyframes airborne{0%,21%,37.1%,100%{opacity:0}21.1%,37%{opacity:1}}
+    .blink{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="900" height="300" fill="url(#bg)"/>
+    <g class="star">
+      <circle cx="685" cy="56" r="1.3"/><circle cx="557" cy="42" r="1.3"/><circle cx="779" cy="72" r="1"/><circle cx="734" cy="35" r="1"/><circle cx="737" cy="33" r="1.6"/><circle cx="634" cy="33" r="1.6"/><circle cx="545" cy="74" r="1"/><circle cx="588" cy="92" r="1.3"/><circle cx="580" cy="96" r="1.6"/><circle cx="612" cy="44" r="1.6"/><circle cx="616" cy="113" r="1"/><circle cx="552" cy="33" r="1.6"/><circle cx="868" cy="127" r="1.3"/><circle cx="752" cy="110" r="1.3"/><circle cx="612" cy="80" r="1"/><circle cx="788" cy="144" r="1.3"/><circle cx="667" cy="36" r="1"/><circle cx="604" cy="105" r="1"/><circle cx="735" cy="28" r="1.6"/><circle cx="805" cy="98" r="1.3"/><circle cx="824" cy="145" r="1.6"/><circle cx="555" cy="41" r="1.3"/><circle cx="470" cy="16" r="1.2"/><circle cx="479" cy="23" r="1.2"/><circle cx="474" cy="28" r="1.2"/><circle cx="398" cy="35" r="1.2"/><circle cx="418" cy="25" r="1.2"/><circle cx="329" cy="29" r="1.2"/>
+    </g>
+    <g class="cloud" style="animation-delay:-8s" transform="translate(0 70)"><path d="M14 0h30v8H6v8H0v8h80v-8H68V8H44V0z"/></g>
+    <g class="cloud" style="animation-delay:-30s" transform="translate(0 128)"><path d="M14 0h30v8H6v8H0v8h80v-8H68V8H44V0z"/></g>
+    <text x="48" y="64" font-size="12" letter-spacing="3" fill="#67E8F9">HO CHI MINH CITY · VIETNAM</text>
+    <text class="sans" x="48" y="127" font-size="58" font-weight="800" fill="url(#nameg)">Hoàn Tuyên</text>
+    <text x="48" y="168" font-size="20" fill="#94A3B8">$</text>
+    <g clip-path="url(#typeclip"><text x="72" y="168" font-size="20" fill="#67E8F9" textLength="408" lengthAdjust="spacing">Backend-first Full-Stack Developer</text></g>
+    <rect class="blink" x="72" y="150" width="10" height="22" fill="#67E8F9"><animate attributeName="x" dur="8s" repeatCount="indefinite" values="72;480;480;72" keyTimes="0;.4;.8;1"/></rect>
+    <text class="sans" x="48" y="206" font-size="15" fill="#94A3B8">Designing reliable backends. Building useful products.</text>
+    <rect y="262" width="900" height="2" fill="#64748B"/>
+    <g class="ground">
+      <path d="M0 273h3v2H0zm12 8h4v2h-4zm82-8h3v2h-3zm57 8h6v2h-6zm15-11h4v2h-4zm16 0h4v2h-4zm14 0h4v2h-4zm34 11h4v2h-4zm37-8h3v2h-3zm50-7h4v2h-4zm29 0h3v2h-3zm24 3h6v2h-6zm28 11h3v2h-3zm43-8h3v2h-3zm42 8h9v2h-9zm13-11h3v2h-3zm40 4h6v2h-6zm38 4h4v2h-4zm26-8h4v2h-4zm31 11h6v2h-6zm37-4h4v2h-4zm43 4h6v2h-6zm38-11h9v2h-9zm46 11h6v2h-6zm37-4h4v2h-4zm45 4h9v2h-9z"/>
+      <path d="M900 0h3v2h-3zm12 8h4v2h-4zm82-8h3v2h-3zm57 8h6v2h-6zm15-11h4v2h-4zm16 0h4v2h-4zm14 0h4v2h-4zm34 11h4v2h-4zm37-8h3v2h-3zm50-7h4v2h-4zm29 0h3v2h-3zm24 3h6v2h-6zm28 11h3v2h-3zm43-8h3v2h-3zm42 8h9v2h-9zm13-11h3v2h-3zm40 4h6v2h-6zm38 4h4v2h-4zm26-8h4v2h-4zm31 11h6v2h-6zm37-4h4v2h-4zm43 4h6v2h-6zm38-11h9v2h-9zm46 11h6v2h-6zm37-4h4v2h-4zm45 4h9v2h-9z"/>
+    </g>
+    <g transform="translate(0 218)" class="cactus" fill="#2DD4BF"><rect x="8" width="8" height="44" rx="3"/><rect y="16" width="10" height="6" rx="2"/><rect y="8" width="6" height="14" rx="2"/><rect x="14" y="22" width="10" height="6" rx="2"/><rect x="18" y="12" width="6" height="16" rx="2"/></g>
+    <g transform="translate(640 205)" class="jump" fill="#E2E8F0" shape-rendering="crispEdges">
+      <path d="M30 0h24v3H27v3h30v3H27v9h15v6H21v6H9v3h9v3H6v3h3v3h6v3h24v3H18v3H9v3h9v3h6v-6h6v6h6v-3h-6v-3h6v-3h-6v-3h-6v-3h9v-3H18v-3h24v-3H18v-3H9v-3H6v-3H0v-3h21v-3H0v-3h27v-3h33V9H39V6h-3V3h-6z"/>
+      <g class="onGround"><g class="legsA"><path d="M18 48h6v6h-6zm12 0h6v3h-6zm0 6h-3v-3h3z"/></g><g class="legsB"><path d="M18 48h6v3h-3v3h-3zm12 0h6v6h-6zm0 6h9v3h-9z"/></g></g>
+      <g class="inAir"><path d="M18 48h6v6h-6zm12 0h6v6h-6zm-12 6h9v3h-9zm12 0h9v3h-9z"/></g>
+    </g>
+  </g>
+</svg>
